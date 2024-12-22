@@ -108,7 +108,7 @@ function Home() {
           ensuring a cohesive and interactive user experience.
           </p>
         </div>
-        <div className="image-container-left">
+        <div className="image-container-right">
           <ImageGallery />
         </div>
       </div>

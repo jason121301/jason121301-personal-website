@@ -4,7 +4,7 @@
   width: 100%;
   background-color: grey;
   z-index: 1000;
-  padding: 10px 0;
+  padding: 19px;
   
 }
 
@@ -17,8 +17,9 @@
   list-style: none;
   display: flex;
   gap: 20px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  padding-right:50px;
 }
 
 .nav-link {

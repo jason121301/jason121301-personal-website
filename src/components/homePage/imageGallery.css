@@ -1,13 +1,17 @@
 .gallery-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  gap: 10px;
-  max-width: 500px; /* Set this to match the image width */
+  width: 400px; /* Match the image width */
+  height: 250px; /* Match the image height */
+  overflow: hidden; /* Ensure no content spills out */
+  border: 1px solid transparent; /* Optional: helps visualize container */
 }
 
 .gallery-image {
+  width: 100%; /* Ensures the image fully fits the container */
+  height: 100%; /* Ensures the image fully fits the container */
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
@@ -18,9 +22,10 @@
 }
 
 .gallery-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute; /* Position relative to .gallery-container */
+  top: 50%; /* Vertically centered */
+  transform: translateY(-50%); /* Adjust for vertical alignment */
+  z-index: 10; /* Ensure the button is above the image */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
   color: white;
   border: none;
@@ -35,14 +40,15 @@
   transition: background-color 0.2s, transform 0.2s;
 }
 
-.gallery-button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  transform: scale(1.1);
+.gallery-button.previous {
+  left: 10px; /* Position 10px from the left edge */
 }
 
-.gallery-button.previous {
-  left: 10px;
-}
 .gallery-button.next {
-  right: 10px;
+  right: 10px; /* Position 10px from the right edge */
+}
+
+.gallery-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
 }
