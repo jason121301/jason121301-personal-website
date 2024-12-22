@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.e0779f2f.css",
+    "main.js": "/website/static/js/main.935f374d.js",
+    "static/js/787.9c9b2be7.chunk.js": "/website/static/js/787.9c9b2be7.chunk.js",
+    "static/media/restify-booking.png": "/website/static/media/restify-booking.8c2d3ed1f2a7080bf2ac.png",
+    "static/media/restify-index.png": "/website/static/media/restify-index.2058e2a841776a352e4b.png",
+    "static/media/restify-dates.png": "/website/static/media/restify-dates.a0c7057a819c5d67ebb9.png",
+    "static/media/ownPhoto.jpg": "/website/static/media/ownPhoto.3b81f08162921ed9529d.jpg",
+    "static/media/zoomedLogo.jpg": "/website/static/media/zoomedLogo.cbc74d17e3539493d0b1.jpg",
+    "static/media/restify-dashboard.png": "/website/static/media/restify-dashboard.963335c62172819283e3.png",
+    "static/media/Ontario Ministry of Education Logo.png": "/website/static/media/Ontario Ministry of Education Logo.00eb20c26d1d93688093.png",
+    "index.html": "/website/index.html",
+    "main.e0779f2f.css.map": "/website/static/css/main.e0779f2f.css.map",
+    "main.935f374d.js.map": "/website/static/js/main.935f374d.js.map",
+    "787.9c9b2be7.chunk.js.map": "/website/static/js/787.9c9b2be7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0779f2f.css",
+    "static/js/main.935f374d.js"
+  ]
+}
