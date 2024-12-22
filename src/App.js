@@ -1,21 +1,19 @@
 
 import Home from './components/homePage/home'
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  
   return (
-
     <div className="App">
-      <Router>
+      <Router basename="/jason121301-personal-website">
         <Routes>
-          <Route path = '/' element={<Home/>}></Route>
-          <Route path="/jason121301-personal-website" element={<Navigate to="/" />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
-
   );
 }
 
 export default App;
+
