@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jason121301-personal-website/static/css/main.dd9935df.css",
+    "main.css": "/jason121301-personal-website/static/css/main.f84c0f7f.css",
     "main.js": "/jason121301-personal-website/static/js/main.1cf90cc8.js",
     "static/js/787.9c9b2be7.chunk.js": "/jason121301-personal-website/static/js/787.9c9b2be7.chunk.js",
     "static/media/restify-booking.png": "/jason121301-personal-website/static/media/restify-booking.8c2d3ed1f2a7080bf2ac.png",
@@ -10,12 +10,12 @@
     "static/media/restify-dashboard.png": "/jason121301-personal-website/static/media/restify-dashboard.963335c62172819283e3.png",
     "static/media/Ontario Ministry of Education Logo.png": "/jason121301-personal-website/static/media/Ontario Ministry of Education Logo.00eb20c26d1d93688093.png",
     "index.html": "/jason121301-personal-website/index.html",
-    "main.dd9935df.css.map": "/jason121301-personal-website/static/css/main.dd9935df.css.map",
+    "main.f84c0f7f.css.map": "/jason121301-personal-website/static/css/main.f84c0f7f.css.map",
     "main.1cf90cc8.js.map": "/jason121301-personal-website/static/js/main.1cf90cc8.js.map",
     "787.9c9b2be7.chunk.js.map": "/jason121301-personal-website/static/js/787.9c9b2be7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd9935df.css",
+    "static/css/main.f84c0f7f.css",
     "static/js/main.1cf90cc8.js"
   ]
 }
