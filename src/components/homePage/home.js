@@ -88,7 +88,7 @@ function Home() {
         </div>
         <div className="video-container-right">
           <video controls className="example-video-1">
-          <source src="${process.env.PUBLIC_URL}/dataswarm_trailer01.mp4" type="video/mp4"/>
+          <source src={`${process.env.PUBLIC_URL}/dataswarm_trailer01.mp4`} type="video/mp4" />
 
             Your browser does not support the video tag.
           </video>
