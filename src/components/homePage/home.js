@@ -11,6 +11,7 @@ function Home() {
   return (
     <div>
       <Helmet>
+        <link rel="icon" href={`${process.env.PUBLIC_URL}/logo192.png`} />
         <title>Jason's Website</title>
       </Helmet>
       <header className="header">
