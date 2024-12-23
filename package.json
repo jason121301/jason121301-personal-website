@@ -23,6 +23,7 @@
     "build": "cross-env PUBLIC_URL=/jason121301-personal-website react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build && del /s /q docs && ren build docs",
     "deploy": "git add . && git commit -m \"Deploy\" && git push origin main"
   },
   "eslintConfig": {
