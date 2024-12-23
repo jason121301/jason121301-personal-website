@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jason121301.github.io/jason121301-personal-website",
+  "homepage": "https://jason121301.github.io/",
   "name": "jason121301-personal-website",
   "version": "0.1.0",
   "private": true,
@@ -20,10 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env PUBLIC_URL=/jason121301-personal-website react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "deploy": "git add . && git commit -m \"Deploy\" && git push origin main"
   },
   "eslintConfig": {
@@ -45,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^6.2.0"
   }
 }

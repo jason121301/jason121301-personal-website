@@ -1,12 +1,13 @@
-
-import Home from './components/homePage/home'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/homePage/home';
 
 function App() {
+  const basename = process.env.PUBLIC_URL || '/';
+  
   return (
     <div className="App">
-      <Router basename="/jason121301-personal-website">
+      <Router basename={basename}>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
