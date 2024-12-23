@@ -195,10 +195,10 @@
 /* Project 2 */
 .project-2-container {
   background-color: lightcoral; 
-  padding: px 40px 0;
+  padding: 40px 0;
 }
 
-.image-container-left {
+.image-container-right {
   flex: 1;
   display: flex;
   justify-content: center;
