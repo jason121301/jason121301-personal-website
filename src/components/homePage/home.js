@@ -4,11 +4,15 @@ import ministryLogo from '../Basics/images/Ontario Ministry of Education Logo.pn
 import restifyIndex from '../Basics/images/restify-index.png'
 import ContactMe from '../contactMe';
 import ImageGallery  from './imageGallery';
+import { Helmet } from 'react-helmet';
 
 function Home() {
   
   return (
     <div>
+      <Helmet>
+        <title>Jason's Website</title>
+      </Helmet>
       <header className="header">
         <nav className="nav">
           <ul className="nav-list">
